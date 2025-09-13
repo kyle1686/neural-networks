@@ -1,0 +1,19 @@
+VARIABLES
+inputNodes = 2
+hiddenLayerNodes = 20
+outputNodes = 1
+errorThreshold = 0.0002
+maxIterations = 100000
+numberOfCases = 4
+lambda = 0.3
+low = -1.5
+high = 1.5
+shouldTrain = true
+useRandomWeights = true
+shouldSaveWeights = true
+weightsFilePath = ./weights.txt
+TRUTH TABLE
+0.0 0.0   0.0 
+0.0 1.0   1.0 
+1.0 0.0   1.0
+1.0 1.0   0.0

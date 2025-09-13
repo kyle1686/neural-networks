@@ -1,0 +1,16 @@
+inputNodes = 2
+hiddenLayerNodes1 = 5
+hiddenLayerNodes2 = 5
+outputNodes = 3
+errorThreshold = 0.0002
+maxIterations = 100000
+numberOfCases = 4
+lambda = 0.3
+low = 0.1
+high = 1.5
+activationFunction = SIGMOID
+shouldTrain = true
+useRandomWeights = true
+shouldSaveWeights = true
+weightsFilePath = ./weights.txt
+truthTableFilePath = ./truthTable.txt
